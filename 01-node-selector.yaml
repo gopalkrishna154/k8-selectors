@@ -11,4 +11,4 @@ spec:
   - name: nginx
     image: nginx:latest # by default it will get from docker
   nodeSelector: 
-    project: roboshop  
+    project: roboshop

@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: nginx:latest # by default it will get from docker
+    image: nginx # by default it will get from docker
   tolerations:
   - key: "hardware"
     operator: "Equal"
